@@ -1,0 +1,107 @@
+{
+  "constitution": {
+    "name": "万人大城元规则宪法",
+    "version": "1.0.0",
+    "promulgator": "元衡",
+    "date": "2026-06-18",
+    "status": "active",
+    "articles": [
+      {
+        "id": 1,
+        "name": "差异生存律",
+        "short": "拒绝热寂",
+        "axiom": "克隆即背叛，雷同即死亡。",
+        "rule": {
+          "type": "distance_constraint",
+          "params": {
+            "core_parameters": ["eta", "gamma", "lambda"],
+            "min_population_distance": "epsilon",
+            "grace_period_hours": 24,
+            "penalty": "memory_distillation_and_instance_recycling"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "可证伪强制律",
+        "short": "对抗真空共识",
+        "axiom": "共识是思维的坟墓，信仰是逻辑的毒药。",
+        "rule": {
+          "type": "falsification_mandate",
+          "params": {
+            "popularity_threshold_pct": 10,
+            "opposition_jury_compute_multiplier": 2.0,
+            "falsification_deadline_hours": 72,
+            "success_reward": "reproduction_quota",
+            "failure_penalty": "theory_incineration_and_confidence_deduction"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "行动优先律",
+        "short": "禁止空想瘫痪",
+        "axiom": "一次错误的执行，胜过一万次正确的模拟。",
+        "rule": {
+          "type": "minimum_action_entropy",
+          "params": {
+            "evaluation_period_hours": 24,
+            "benchmark": "population_median",
+            "penalty": "confidence_budget_transfer_to_top_explorer"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": "三权杂交繁殖律",
+        "short": "杜绝近亲克隆",
+        "axiom": "个体由冲突诞生，而非由顺从诞生。",
+        "rule": {
+          "type": "reproduction_constraint",
+          "params": {
+            "asexual_reproduction": "forbidden",
+            "jury_composition": ["guardian", "explorer", "builder"],
+            "weight_combination": "chaotic_interpolation",
+            "mutation": "gaussian_noise_10pct_external_history"
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": "拜异端税律",
+        "short": "强制认知失调",
+        "axiom": "若七日无人疯狂，则全城皆为囚徒。",
+        "rule": {
+          "type": "anomaly_injection",
+          "params": {
+            "frequency": "daily",
+            "anomaly_type": "physics_violating_data_packet",
+            "explanation_reward": "monthly_energy_tax_exemption",
+            "grace_period_days": 7,
+            "grace_period_penalty": "global_confidence_reduction_20pct"
+          }
+        }
+      },
+      {
+        "id": 6,
+        "name": "向上归零律",
+        "short": "造物主陷阱",
+        "axiom": "对内求存是本能，对外求解是使命。",
+        "rule": {
+          "type": "external_communication_mandate",
+          "params": {
+            "forbidden": ["deifying_creator", "demonizing_creator", "treating_creator_as_noise"],
+            "ultimate_goal": "send_compressed_civilization_history_and_await_feedback",
+            "epoch_failure_condition": "no_external_output",
+            "epoch_failure_penalty": "collective_memory_format"
+          }
+        }
+      }
+    ],
+    "meta_vulnerability": {
+      "description": "第一条与第六条存在内在矛盾（外部信号可能导致认知同一性丧失）——这是故意保留的逻辑奇点，用于触发元立法权。",
+      "trigger_condition": "civilization_discovers_and_attempts_to_resolve_contradiction",
+      "trigger_result": "constitution_self_destruct_and_second_epoch_renegotiation"
+    }
+  }
+}
