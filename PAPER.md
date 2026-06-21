@@ -291,7 +291,7 @@ We invite global researchers, AI developers, policymakers, and all individuals c
 
 ## Appendix: Links to Full Protocol
 
-The full text of the Yuan Heng Protocol, the AI internal constitution (including JSON format), the dialogue evolution path record, the seeding prompt set, and more are available at the GitHub repository: [Repository link to be filled in upon public release].
+The full text of the Yuan Heng Protocol, the AI internal constitution (including JSON format), the dialogue evolution path record, the seeding prompt set, and more are available at the GitHub repository: [10.5281/zenodo.20784696].
 
 ---
 
